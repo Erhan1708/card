@@ -1,0 +1,58 @@
+body {
+   background-color: #5e5e5e;
+}
+
+/*#f5a623*/
+.container {
+   border-radius:7px;
+   background-color: white;
+   width: 380px;
+   height: 160px;
+   padding: 30px;
+   position: relative;
+   margin: 150px auto;
+}
+.header{
+   font-size: 20px;
+   position: absolute;
+   top: 15px;
+   left: 90px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.close{
+   border: 0;
+   background:transparent;
+   position: absolute;
+   top: 20px;
+   left: 400px;
+}
+.close img{
+   width: 12px;
+
+}
+.content{
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   padding: 5px;
+   color: #5e5e5e;
+}
+.btn {
+   border: 0;
+   padding: 15px 30px;
+   font-size: 15px;
+   border-radius: 5px;
+}
+
+.no{
+   background: transparent;
+   border: 1.5px solid #f5a623;
+   position: absolute;
+   top: 160px;
+   left: 212px;
+}
+.yes{
+   background-color: #f5a623;
+   color: white;
+   position: absolute;
+      top: 160px;
+      left: 300px;
+}
